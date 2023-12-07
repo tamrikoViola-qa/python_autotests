@@ -7,7 +7,7 @@ import requests
 #     "photo": "https://dolnikov.ru/pokemons/albums/011.png"
 #     }, 
 #     headers= {'Content-Type': 'application/json',
-#              'trainer_token': '328a31ce135a787c8ec05d4c222d0f1a'}
+#              'trainer_token': 'token'}
 #            )
 # print(response)
 #TODO Закоментила создание покемона
@@ -19,7 +19,7 @@ response = requests.put(url='https://api.pokemonbattle.me:9104/pokemons',
     "photo": "https://dolnikov.ru/pokemons/albums/011.png"
     }, 
     headers= {'Content-Type': 'application/json',
-             'trainer_token': '328a31ce135a787c8ec05d4c222d0f1a'}
+             'trainer_token': 'token'}
            )
 print(response)
 
@@ -28,6 +28,6 @@ response = requests.post(url='https://api.pokemonbattle.me:9104//trainers/add_po
     "pokemon_id": "21362",
    }, 
     headers= {'Content-Type': 'application/json',
-             'trainer_token': '328a31ce135a787c8ec05d4c222d0f1a'}
+             'trainer_token': 'token'}
            )
 print(response)
